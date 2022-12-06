@@ -1,6 +1,6 @@
 // For this project I organized Tyler the Creators albums by Title, Year, and wether or not it won the Grammy got Best Rap Album of the year.
 
-var albums = ["Goblin", "Wolf", "Cherry Bomb", "Flower Boy", "IGOR", "CMYGL"];
+var albums = ["Goblin", "Wolf", "Cherry Bomb", "Flower Boy", "IGOR", "CALL ME IF YOU GET LOST"];
 var years = [2011, 2013, 2015, 2017, 2019, 2021];
 var grammys = [false, false, false, false, true, true];
 
@@ -13,7 +13,7 @@ console.log("Tyler, the Creator's most recent album", (albums.at (-1)), "was rea
 
 console.log("Tylers albums", albums.slice(4,6), "won Grammys");
 
-//IF tyler makes a new album here refered to as "NEW" than they would add it to his discography like this
+//IF tyler makes a new album (which we will call "NEW") than they would add it to his discography like this
 
 albums.push("NEW");
 console.log("Check out Tyler, the Creator's new album:", (albums.pop()));
@@ -34,7 +34,7 @@ for (var x = 0; x <= 5; x++) {
     console.log(albums.at (x), "was released in", years.at(x));
 
 
-// couldn't get this code to work. going to focus on out standing hw.
+// couldn't get this code to work. going to focus on out standing hw. assuming im missing something about nesting
 
 } /*if (grammys.at (x)){
     console.log(albums.at (x), "won a grammy!");
