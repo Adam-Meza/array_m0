@@ -27,3 +27,18 @@ if (grammys.at(specific)) {
 } else {
     console.log("No it didn't");
 }
+
+// EXTRA added after reading about For statements
+
+for (var x = 0; x <= 5; x++) {
+    console.log(albums.at (x), "was released in", years.at(x));
+
+
+// couldn't get this code to work. going to focus on out standing hw.
+
+} /*if (grammys.at (x)){
+    console.log(albums.at (x), "won a grammy!");
+} else {
+    console.log(albums.at (x)), "didn't win a grammy. :("
+}
+*/  
