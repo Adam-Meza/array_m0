@@ -18,7 +18,7 @@ console.log("Tylers albums", albums.slice(4,6), "won Grammys");
 albums.push("NEW");
 console.log("Check out Tyler, the Creator's new album:", (albums.pop()));
 
-// If user was to ask if a certain albums, (in this case Cherry Bomb) won a grammy it might look like this
+// This is my open ended part - If user was to ask if a certain albums, (in this case Cherry Bomb) won a grammy it might look like this
 var specific = 2
 console.log("Did", albums.at(specific), "win a grammy?")
 
@@ -26,3 +26,4 @@ if (grammys.at(specific)) {
     console.log("Yes it did!");
 } else {
     console.log("No it didn't");
+}
