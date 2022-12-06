@@ -30,7 +30,7 @@ if (grammys.at(specific)) {
 
 // EXTRA added after reading about For statements
 
-for (var x = 0; x <= 5; x++) {
+for (var x = 0; x < albums.length; x++) {
     console.log(albums.at (x), "was released in", years.at(x));
 
 
